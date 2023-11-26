@@ -171,7 +171,7 @@ html {
 }
 
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(background/R.jpeg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(background/CSBackgroundBW.jpg) no-repeat center center fixed;
     background-size: cover;
     
 }
