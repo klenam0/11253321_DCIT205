@@ -6,7 +6,7 @@
   --black: #13131a;
   --bg: #2c2a58;
   --black2: #010103;
-  --border: 0.1rem solid #bd9c6c;
+  --border: 0.2rem solid #bd9c6c;
 
   /* --border: 0.1rem solid rgba(255, 255, 255, 0.3); */
 }
@@ -96,7 +96,7 @@ html {
 }
 
 .logo-container img{
-    height: 7rem;
+    height: 5rem;
     margin-right: 1rem;
 }
 
@@ -265,8 +265,15 @@ html {
   
   .about .row .image img {
     width: 100%;
+    filter: grayscale(30%);
+    transition: filter 0.3s ease-in-out;
   }
   
+  .about .row .image img:hover {
+    filter: grayscale(0%);
+    filter: saturate(2);
+  }
+
   .about .row .content {
     flex: 1 1 45rem;
     padding: 2rem;
@@ -284,6 +291,76 @@ html {
     line-height: 1.8;
   }
 
+  .short-courses {
+    padding: 0 5rem;
+  }
+
+  .short-courses .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  .short-courses.box-in-view .box-container {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .short-courses .box-container .box {
+    max-height: 490.6px;
+    max-width: 40rem;
+    margin-top: 2rem;
+  }
+  
+  .short-courses .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .short-courses .box-container .box .image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .short-courses .box-container .box:hover .image img {
+    transform: scale(1.2);
+  }
+  
+  .short-courses .box-container .box .content {
+    padding: 2rem;
+  }
+
+  .short-courses .box-container .box .content:hover {
+    background: #e4e4e4;
+  }
+
+
+  
+  .short-courses .box-container .box .content .title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: var(--blue);
+  }
+  
+  .short-courses .box-container .box .content .title:hover {
+    color: var(--main-color);
+  }
+  
+
+  
+  .short-courses .box-container .box .content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #777575;
+    padding: 1rem 0;
+    font-weight: bold;
+  }
 
 
 
