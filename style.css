@@ -63,10 +63,6 @@
     color: var(--main-color);
 }
 
-
-
-
-
 .header .navbar a {
   margin: 0 1rem;
   font-size: 1rem;
@@ -127,10 +123,57 @@
   color: var(--main-color);
 }
 
+.welcome-message {
+    position: absolute;
+  top: 100%;
+  right: 0;
+  height: calc(100vh - 5rem);
+  width: 100%;
+  background:linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url(images/1_137f79f7-7530-4ed0-bfdc-5d4b1e1d57f0_800x.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 1.5rem;
+}
+
+.welcome-message .content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    animation: popIn 1s ease-out 1;
+    animation-delay: var(--i * 1s);
+}
+
+@keyframes popIn {
+    0% {
+        transform: translateY(-130%);
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    100% {
+        transform: translateY(-50%);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+.content h1 {
+    font-size: 47px;
+    font-weight: bold;
+  }
 
 
 
-
+  .content p{
+    font-size: 1.5 rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-top: 18px;
+  }
 
 
 
