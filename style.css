@@ -299,6 +299,16 @@ html {
     height: 100vh;
   }
 
+  .short-courses  h3 {
+    font-size: 1.5rem;
+    color: #777575;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+
+
   .short-courses .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -390,22 +400,29 @@ html {
     border: var(--border);
     margin:  0; /* Margin around each box (adjust as needed) */
 }
+.programmes .box-container .box:hover {
+  background: #e4e4e4;
+}
   
   .programmes .box-container .box img {
     height: 15rem;
     width: 15rem;
   }
 
-  .programmes .box-container .box img:hover {
+  .programmes .box-container .box:hover  img{
     transform: scale(1.2);
   }
   
   
   .programmes .box-container .box .content a{
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1;
     font-weight: bold;
     color: var(--blue);
+  }
+
+  .programmes .box-container .box .content a:hover {
+    color: var(--main-color);
   }
 
   .programmes .box-container .box .content p{
@@ -416,7 +433,72 @@ html {
     font-weight: 400;
   }
 
+  .footer {
+    background: var(--blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
 
+  .footer .column-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+  .footer .share {
+    padding: 1rem 0;
+  }
+  
+  .footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.3rem;
+    border-radius: 50%;
+  }
+  
+  .footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  .footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  
+  .footer .links a {
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+  }
+  
+  .footer .links a:hover {
+    background: var(--main-color);
+  }
+  
+  .footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+  }
+  
+  .footer .credit span {
+    color: var(--main-color);
+  }
 
 
 
