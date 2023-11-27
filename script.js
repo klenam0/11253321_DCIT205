@@ -14,3 +14,23 @@ window.onscroll = () => {
     }
   });
 };
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var links = document.querySelectorAll(".header .navbar a");
+
+  links.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      // Remove 'active' class from all links
+      links.forEach(function (l) {
+        l.classList.remove("active");
+      });
+
+      // Add 'active' class to the clicked link
+      link.classList.add("active");
+
+      // Prevent the default behavior of the link (e.g., following the href)
+      event.preventDefault();
+    });
+  });
+});

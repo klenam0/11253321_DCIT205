@@ -1,11 +1,44 @@
-*{
+:root {
+    --main-color: #bd9c6c;
+    --blue: #2c2a58;
+    --black: #13131a;
+    --bg: #2c2a58;
+    --black2: #010103;
+    --border: 0.2rem solid #bd9c6c;
+  
+    /* --border: 0.1rem solid rgba(255, 255, 255, 0.3); */
+  }
+  
+
+  * {
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
 
 html, body {
     height: 100%;  
 }
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    letter-spacing: 0.2rem;
+  }
 
 .page {
     min-height: 100%;
@@ -13,8 +46,272 @@ html, body {
 
 #main {
     overflow: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 100px;
 }
+
+.background {
+    height: 270vh;
+    margin-top: 81.6px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/background/CSBackgroundBW.jpg) no-repeat center center fixed;
+    background-size: cover;
+  
+  }
+
+  .our-courses{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/software-developers-discussing-about-cloud-programming-innovation-while-rest-team-joins-discussion-programmers-doing-teamwork-computing-big-data-server-room_482257-43983.avif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+  .background .our-courses h1 {
+    position: relative;
+    top: 38%;
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0;
+    animation: popIn 1s ease-out forwards;
+    transition-delay: calc(.2s * var(--i));
+
+  }
+
+ .nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    
+    
+}
+
+
+.nav-section .programmes a {
+    position: relative;
+    top: 28%;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 450;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 .5rem;
+    opacity: 0;
+    animation: popIn 1s ease-out forwards; 
+    transition-delay: calc(.2s * var(--i));
+    
+
+  }
+
+  .nav-section .programmes a:hover {
+    letter-spacing: 0.2rem;
+   background: #90744e;
+   opacity: .5;
+  }
+
+  .background .message{
+    background: #fff;
+    height: 20rem;
+  }
+
+  .background .message h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+.message p {
+    color: #010103;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .short-courses {
+    padding: 0 5rem;
+    height: 90vh;
+    background: #fff;
+  }
+
+  .short-courses  h3 {
+    font-size: 1.5rem;
+    color: #777575;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .short-courses .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  .short-courses.box-in-view .box-container {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .short-courses .box-container .box {
+    max-height: 490.6px;
+    max-width: 40rem;
+    margin-top: 2rem;
+  }
+  
+  .short-courses .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .short-courses .box-container .box .image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .short-courses .box-container .box:hover .image img {
+    transform: scale(1.2);
+  }
+  
+  .short-courses .box-container .box .content {
+    padding: 2rem;
+  }
+
+  .short-courses .box-container .box .content:hover {
+    background: #e4e4e4;
+  }
+
+
+  
+  .short-courses .box-container .box .content .title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: var(--blue);
+  }
+  
+  .short-courses .box-container .box .content .title:hover {
+    color: var(--main-color);
+  }
+  
+
+  
+  .short-courses .box-container .box .content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #777575;
+    padding: 1rem 0;
+    font-weight: bold;
+  }
+  
+  .register{
+    background: #fff;
+    margin-top: -8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .register .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(15rem, 1fr)); /* Two columns, adjust width as needed */
+    gap: .5rem;
+    margin: 0 30rem; /* Add space on the sides of the container */
+}
+
+.register .box-container .box {
+    padding: 2rem; /* Adjust padding inside each box */
+    text-align: center;
+    margin:  0; /* Margin around each box (adjust as needed) */
+}
+
+.register .box-container .box h1{
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
