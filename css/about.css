@@ -9,6 +9,22 @@
     /* --border: 0.1rem solid rgba(255, 255, 255, 0.3); */
   }
 
+
+  html, body {
+    height: 100%;  
+}
+
+.page {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 5rem;
+}
+
+  
+
 .about {
   height: calc(100vh - 81.6px) ;
   margin-top: 81.6px;
@@ -61,42 +77,48 @@
     line-height: 1.8;
 }
 
+.get-to span {
+    color: var(--main-color);
+}
+
+.get-to p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -1rem;
+}
 
 
-
-.get-to {
-    margin-top: 1rem;
-    height: 100vh;
-    margin: 0 15rem;
-    margin-bottom: 5rem;
+.get-to .box-container .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 1.5rem;
     
+  }
 
-}
+  .get-to .box-container .box {
+    padding: 5rem;
+    text-align: center;
+   
+  }
+
+  .get-to .box-container .box img {
+    width: 100%
+   
+  }
   
-.get-to .box {
-    margin-top: 5rem;
-}
+  .get-to .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
 
   .get-to .box .row {
     display: flex;
     align-items: center;
-    background: var(--black);
+    background: var(--blue);
     flex-wrap: wrap;
-  }
-
-  .get-to .box h1 {
-    margin-bottom: 0;
-  }
-
-  .get-to .box p {
-    font-size: 1.6rem;
-    color: #646464;
-    padding: 1rem 0;
-    margin-top: -4rem;
-    margin-bottom: 4rem;
-    line-height: 1.8;
-    text-align: center;
-    font-weight: bold;
+    border-bottom: .4rem solid #bd9c6c;
   }
   
   .get-to .box .row .image {
@@ -105,14 +127,14 @@
   
   .get-to .box .row .image img {
     width: 100%;
-    filter: grayscale(50%);
-    transition: filter 0.1s ease-in-out;
-  }
-  
-  .get-to .box .row .image img:hover {
-    filter: grayscale(0%);
+    filter: grayscale(40%);
+    transition: filter 0.3s ease-in-out;
   }
 
+  .get-to .row .image img:hover {
+    filter: grayscale(0%);
+  }
+  
   .get-to .box .row .content {
     flex: 1 1 45rem;
     padding: 2rem;
@@ -121,12 +143,6 @@
   .get-to .box .row .content h3 {
     font-size: 3rem;
     color: #fff;
-    margin-bottom: 4rem;
-    text-align: center;
-  }
-
-  .get-to .box .row .content h3 span{
-    color: var(--main-color);
   }
   
   .get-to .box .row .content p {
@@ -135,6 +151,76 @@
     padding: 1rem 0;
     line-height: 1.8;
   }
+  
 
+  footer {
+    background: var(--blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  footer .column-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  footer .column-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+  footer .share {
+    padding: 1rem 0;
+  }
+  
+  footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.3rem;
+    border-radius: 50%;
+  }
+  
+  footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  
+  footer .links a {
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+  }
+  
+  footer .links a:hover {
+    background: var(--main-color);
+  }
+  
+  footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+  }
+  
+  footer .credit span {
+    color: var(--main-color);
+  }
 
   
+
+  
+

@@ -444,7 +444,7 @@ html {
     flex-wrap: wrap;
 }
 
-.column-item {
+  .footer .column-item {
     width: 25%;
     box-sizing: border-box;
     padding: 20px;
