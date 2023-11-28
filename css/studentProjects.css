@@ -46,9 +46,167 @@ html, body {
 
 #main {
     overflow: auto;
-    padding-bottom: 100px;
+    padding-bottom: 400px;
 }
 
+
+.background {
+  height: 140vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/background/CSBackgroundBW.jpg) no-repeat fixed;
+  background-size: cover;
+  
+}
+
+.opening .banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/background/ourprojects.jpg) no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: left;
+  margin-top: 9rem;
+}
+
+
+.opening .banner h1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  padding-top: 100px;
+  font-size: 5rem;
+  opacity: 0;
+  animation: popIn 1s ease-out forwards;
+}
+
+.opening .content {
+  background: #fff;
+  padding-top: 5rem;
+  margin-bottom: 25rem;
+  padding-bottom: 10rem;
+}
+
+.opening .content h1 {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.opening .content p{
+  padding: 0 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+.message {
+  padding-top: 4rem;
+  background: #fff;
+  text-align: center;
+  padding-bottom: -2rem;
+}
+
+.message h1{
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.message p{
+  padding: 0 6rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+.projects {
+  padding-top: 5rem;
+  padding-right: 5rem;
+  padding-left: 10rem;
+  height: 100vh;
+}
+
+.projects  h3 {
+  font-size: 1.5rem;
+  color: #777575;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+
+.projects .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+  transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.projects.box-in-view .box-container {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.projects .box-container .box {
+  max-height: 490.6px;
+  max-width: 40rem;
+  margin-top: 2rem;
+}
+
+.projects .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.projects .box-container .box .image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.projects .box-container .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.projects .box-container .box .content {
+  padding: 2rem;
+}
+
+.projects .box-container .box .content:hover {
+  background: #e4e4e4;
+}
+
+
+
+.projects .box-container .box .content .title {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.projects .box-container .box .content .title:hover {
+  color: var(--main-color);
+}
+
+
+
+.projects .box-container .box .content p {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  color: #777575;
+  padding: 1rem 0;
+  font-weight: bold;
+}
 
 
 

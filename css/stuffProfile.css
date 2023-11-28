@@ -50,8 +50,84 @@ html, body {
 }
 
 
+.background {
+    height: 140vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/background/CSBackgroundBW.jpg) no-repeat fixed;
+    background-size: cover;
+    
+}
+
+.staff .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/background/staff.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: left;
+    margin-top: 9rem;
+}
+
+
+.staff .banner h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    padding-top: 100px;
+    font-size: 5rem;
+    opacity: 0;
+    animation: popIn 1s ease-out forwards;
+}
+
+.staff .content {
+    background: #fff;
+    padding-top: 5rem;
+    margin-bottom: 25rem;
+    padding-bottom: 10rem;
+}
+
+.staff .content h1 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.staff .content p{
+    padding: 0 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.future{
+    padding-top: 4rem;
+}
+
+.future h1 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.future p{
+    padding: 0 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
 .profiles {
     padding-top: 8rem;
+    background: #fff;
 }
 
 .profiles .box-container .box {

@@ -35,6 +35,18 @@ html, body {
     overflow: auto;
     padding-bottom: 0p;
 }
+.heading {
+  text-align: center;
+  color: var(--blue);
+  text-transform: uppercase;
+  padding: 3.5rem;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--main-color);
+  text-transform: capitalize;
+}
 
 
 .events .banner {
@@ -42,7 +54,7 @@ html, body {
     background-size: cover;
     height: 40vh;
     background-position: left;
-    margin-top: 9rem;
+    margin-top: 3rem;
     margin-right: 20rem;
     margin-left: 20rem;
 }
