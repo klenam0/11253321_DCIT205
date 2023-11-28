@@ -238,76 +238,40 @@ html, body {
     padding: 1rem 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.faq {
+  padding-top: 5rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-bottom: -9rem;
+}
+
+.faq .banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/background/faq1.jpg) no-repeat;
+    height: 50vh;
+    background-size: cover;
+}
+
+
+.faq .banner a {
+  position: relative;
+  top: 45%;
+  left: 40%;
+  color: #fff;
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: .8rem;
+}
+
+.faq .banner span{
+  margin: 0 2rem;
+  font-size: 5rem;
+}
+
+
+.faq .banner a:hover {
+  letter-spacing: 1.5rem;
+  color: var(--main-color);
+}
 
 
 

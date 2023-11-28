@@ -1,0 +1,242 @@
+:root {
+    --main-color: #bd9c6c;
+    --blue: #2c2a58;
+    --black: #13131a;
+    --bg: #2c2a58;
+    --black2: #010103;
+    --border: 0.2rem solid #bd9c6c;
+  
+    /* --border: 0.1rem solid rgba(255, 255, 255, 0.3); */
+  }
+  
+
+  * {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
+
+html, body {
+    height: 100%;  
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    letter-spacing: 0.2rem;
+  }
+
+.page {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+
+
+.faqs-section {
+    margin-top: 6rem;
+    background: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/background/faq2\ \(1\).png) no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: -18rem;
+}
+
+.faqs-section .faqs .heading span{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.faqs-section .faqs .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(15rem, 1fr)); /* Two columns, adjust width as needed */
+    gap: .5rem;
+    margin: 0 10rem; /* Add space on the sides of the container */
+}
+
+.faqs-section .faqs .box-container .box {
+    padding: 2rem; /* Adjust padding inside each box */
+    text-align: center;
+    margin:  2rem 0; /* Margin around each box (adjust as needed) */
+}
+
+.faqs-section .faqs .box-container .box:hover i{
+    font-size: 6rem;
+    color: var(--main-color);
+}
+
+.faqs-section .faqs .box-container .box i{
+    margin: 2rem 0;
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+.faqs-section .faqs .box-container .box h1{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.faqs-section .faqs .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: var(--blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+
+
+  footer .share {
+    padding: 1rem 0;
+  }
+  
+  footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.3rem;
+    border-radius: 50%;
+  }
+  
+  footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  
+  footer .links a {
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+  }
+  
+  footer .links a:hover {
+    background: var(--main-color);
+  }
+  
+  footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+  }
+  
+  footer .credit span {
+    color: var(--main-color);
+  }
+
+  footer {
+    background: var(--blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+
+
+  footer .share {
+    padding: 1rem 0;
+  }
+  
+  footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.3rem;
+    border-radius: 50%;
+  }
+  
+  footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  
+  footer .links a {
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+  }
+  
+  footer .links a:hover {
+    background: var(--main-color);
+  }
+  
+  footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+  }
+  
+  footer .credit span {
+    color: var(--main-color);
+  }
