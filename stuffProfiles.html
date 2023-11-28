@@ -11,6 +11,7 @@
       href="https://cdnjs.com/libraries/font-awesome google fonts: https://fonts.google.com/specimen/Nunito?query=roboto"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/stuffProfile.css">
     <!-- font awesome cdn link -->
     <link
       rel="stylesheet"
@@ -19,41 +20,269 @@ css/all.min.css"
     />
   </head>
   <body>
-    <!-- header section starts -->
 
-    <header class="header">
-      <div class="logo-container">
-        <a href="#"><img src="UoG_CoA_2017.svg.png"> <span>UG DEPARTMENT OF <br> COMPUTER SCIENCE</span>
-        </a>
+    <div class="page">
+      <div id="main">
+
+<!-- header section starts -->
+
+<header class="header">
+  <div class="logo-container">
+    <a href="#"><img src="UoG_CoA_2017.svg.png"> <span>UG DEPARTMENT OF <br> COMPUTER SCIENCE</span>
+    </a>
+  </div>
+    
+
+  
+
+  <!-- Home, About, Catalog, Resources, Events, Contact, and a page of your choice (e.g., Student Projects, Staff Profiles -->
+
+  <nav class="navbar">
+    <a href="#home" onclick="location.href='index.html'">Home</a>
+    <a href="#about" onclick="location.href='about.html'">About</a>
+    <a href="#catalog" onclick="location.href='catalog.html'">Catalog</a>
+    
+    <a href="#events" onclick="location.href='events.html'">Events</a>
+    <a href="#contact" onclick="location.href='contact.html'">Contact</a>
+    <a href="#student-projects" onclick="location.href='studentProjects.html'">Student Projects</a> 
+    <a href="#staff-profiles" onclick="location.href='stuffProfiles.html'">Staff Profiles</a>
+  </nav>
+
+  <div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+
+    <div class="fas fa-bars" id="menu-btn"></div>
+  </div>
+
+  <div class="search-form">
+    <input type="search" id="search-box" placeholder="search here..." />
+    <label for="search-box" class="fas fa-search"></label>
+  </div>
+</header>
+
+  
+<div class="profiles">
+  <div class="box-container">
+    <div class="box">
+
+      <div class="box">
+
+  
+        <div class="row">
+          <div class="image">
+            <img src="images/profile5.jpg" alt="" />
+          </div>
+    
+          <div class="content">
+            <h3>Matilda Wilson</h3>
+            <p>
+              As a Lecturer in Computer Science at the University of Ghana, Legon, she brings a wealth of experience to her role. With a background as a System Analyst at the West African Examinations Council, she has further contributed as the Refinery Programmer and IT Administrator on the IBM AS-400 at the Refinery. Matilda has been instrumental in pivotal roles such as the Refinery IT trainer and Computer Security Administrator, demonstrating her proficiency in system analysis and IT administration.
+            </p>
+          </div>
+        </div>
       </div>
-        
 
-      
+  
+    <div class="row">
+      <div class="image">
+        <img src="images/profile1.jpg" alt="" />
+      </div>
 
-      <!-- Home, About, Catalog, Resources, Events, Contact, and a page of your choice (e.g., Student Projects, Staff Profiles -->
+      <div class="content">
+        <h3>Mark Atta Mensah</h3>
+        <p>
+          He possesses more than ten years of expertise as a computer science educator and IT leader. Certified in Data Science and AI by IBM, he demonstrates proficiency in utilizing tools such as Jira, GitHub, and Tableau. His accomplishments encompass the successful management of projects and the facilitation of students securing internships at Fortune 500 companies. Proficient in agile project management, he combines academic knowledge with practical leadership skills, making him a valuable asset to any technological initiative.
+        </p>
+      </div>
+    </div>
+  </div>
 
-      <nav class="navbar">
+  <div class="box">
+
+
+    <div class="box">
+
+  
+      <div class="row">
+        <div class="image">
+          <img src="images/profile4.jpg" alt="" />
+        </div>
+  
+        <div class="content">
+          <h3>Ferdinand Apietu Katsriku</h3>
+          <p>
+            He boasts a distinguished academic background, holding a PhD from London, PGCE, QTS, and MSc from Scotland, along with an MEng with Distinction from the former USSR. Furthermore, he possesses a Diploma in Education in Russian Language from the former USSR. His primary research focus centers on wireless communications, with a keen anticipation of their pivotal role in future communication systems. This emphasis is particularly relevant in developing countries, where the cost associated with deploying wired lines poses significant challenges.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="image">
+        <img src="images/profile2.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>Michael Agbo Tettey Soli</h3>
+        <p>
+          With over a decade of experience in software engineering, he serves as a solutions engineer and software architect. His expertise lies in solving intricate problems, leveraging a robust mathematical foundation, and displaying a keen interest in areas such as Graph Theory, Algorithms, Machine Learning, and Software Development Life Cycle (SDLC). Proficient in Java, NoSQL, and JavaScript, he brings extensive experience in domains like Cyber Security and Financial Markets. Additionally, he excels in building Recommender Systems and has hands-on experience with Neo4j.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+ 
+
+
+
+  
+
+
+  <div class="box">
+
+    <div class="box">
+
+  
+      <div class="row">
+        <div class="image">
+          <img src="images/profile6.jpg" alt="" />
+        </div>
+  
+        <div class="content">
+          <h3>Edward Danso Ansong</h3>
+          <p>
+            He is an Application Security and Forensic Analyst, Data Centre Engineer, and Cyber Security Expert with certifications from IBM, RedHat, and Oracle. Awarded for research contributions in India and Ghana, he is the Principal Investigator of Fredan Computers Inc, specializing in security consultancy and training. Currently a lecturer and researcher at the University of Ghana, Legon, His expertise lies in Computer Security, Operating Systems, and Networking.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="row">
+      <div class="image">
+        <img src="images/profile3.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>Isaac Wiafe</h3>
+        <p>
+          He is dedicated to advancing persuasive technology design. Recognizing a gap in theoretical foundations for current technologies, he focuses on developing tools for analyzing persuasion contexts within the Persuasive Systems Design model. His 3-Dimensional Relationship between Attitude and Behaviour model serves as an effective guide for this analysis. He explores road maps for selecting features and methods that ensure adaptability to users' needs.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+      </div>
+    </div>
+
+    <footer>
+     
+  
+      <div class="links">
         <a href="#home" onclick="location.href='index.html'">Home</a>
         <a href="#about" onclick="location.href='about.html'">About</a>
         <a href="#catalog" onclick="location.href='catalog.html'">Catalog</a>
-        <a href="#resources" onclick="location.href='resources.html'">Resources</a>
+        
         <a href="#events" onclick="location.href='events.html'">Events</a>
         <a href="#contact" onclick="location.href='contact.html'">Contact</a>
         <a href="#student-projects" onclick="location.href='studentProjects.html'">Student Projects</a> 
-        <a href="#stuff-profiles" onclick="location.href='stuffProfiles.html'">Stuff Profiles</a>
-      </nav>
-
-      <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-
-        <div class="fas fa-bars" id="menu-btn"></div>
+        <<a href="#staff-profiles" onclick="location.href='stuffProfiles.html'">Staff Profiles</a>
       </div>
 
-      <div class="search-form">
-        <input type="search" id="search-box" placeholder="search here..." />
-        <label for="search-box" class="fas fa-search"></label>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
       </div>
 
+      <div class="credit">
+        created by <span>mr. klenam coder</span> | all rights reserved
+      </div>
+    </footer>
+    
 
   
 </body>

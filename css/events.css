@@ -33,7 +33,7 @@ html, body {
 
 #main {
     overflow: auto;
-    padding-bottom: 100px;
+    padding-bottom: 0p;
 }
 
 
@@ -249,18 +249,6 @@ footer {
     text-align: center;
     margin-top: 5rem;
   }
-
-  footer .column-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-  footer .column-item {
-    width: 25%;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: center;
-}
 
   footer .share {
     padding: 1rem 0;

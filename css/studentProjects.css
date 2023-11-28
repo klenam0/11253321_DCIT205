@@ -1,0 +1,176 @@
+:root {
+    --main-color: #bd9c6c;
+    --blue: #2c2a58;
+    --black: #13131a;
+    --bg: #2c2a58;
+    --black2: #010103;
+    --border: 0.2rem solid #bd9c6c;
+  
+    /* --border: 0.1rem solid rgba(255, 255, 255, 0.3); */
+  }
+  
+
+  * {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
+
+html, body {
+    height: 100%;  
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    letter-spacing: 0.2rem;
+  }
+
+.page {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: var(--blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+
+  footer .share {
+    padding: 1rem 0;
+  }
+  
+  footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.3rem;
+    border-radius: 50%;
+  }
+  
+  footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  
+  footer .links a {
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+  }
+  
+  footer .links a:hover {
+    background: var(--main-color);
+  }
+  
+  footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+  }
+  
+  footer .credit span {
+    color: var(--main-color);
+  }
