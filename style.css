@@ -412,6 +412,10 @@ html {
   .programmes .box-container .box:hover  img{
     transform: scale(1.2);
   }
+
+  .programmes .box-container .box:active  img{
+    transform: scale(2.5);
+  }
   
   
   .programmes .box-container .box .content a{
@@ -500,8 +504,20 @@ html {
     color: var(--main-color);
   }
 
+.links i{
+  font-size: 5rem;
+  padding: 0 1.2rem;
+  color: #fff;
+}
 
 
+.links i:hover {
+  color: var(--main-color);
+}
+
+.links i:active {
+  color: #f7c171;
+}
 
 
 
