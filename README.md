@@ -88,7 +88,7 @@
 
 # PAGES ON MY WEBSITE
 
-# ![Home](screenshots\1.png)
+# ![Home](./screenshots/1.png)
 
 # ![](screenshots\2.png)
 
