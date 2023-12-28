@@ -88,100 +88,100 @@
 
 # PAGES ON MY WEBSITE
 
-# ![Home](./screenshots/1.png)
+# ![](./screenshots/1.png)
 
-# ![](screenshots\2.png)
+# ![](./screenshots/2.png)
 
-# ![](screenshots\3.png)
+# ![](./screenshots/3.png)
 
-# ![](screenshots\4.png)
+# ![](./screenshots/4.png)
 
-# ![](screenshots\5.png)
+# ![](./screenshots/5.png)
 
-# ![](screenshots\6.png)
+# ![](./screenshots/6.png)
 
-# ![](screenshots\7.png)
+# ![](./screenshots/7.png)
 
-# ![](screenshots\8.png)
+# ![](./screenshots/8.png)
 
-# ![](screenshots\9.png)
+# ![](./screenshots/9.png)
 
-# ![](screenshots\10.png)
+# ![](./screenshots/10.png)
 
-# ![](screenshots\11.png)
+# ![](./screenshots/11.png)
 
-# ![](screenshots\12.png)
+# ![](./screenshots/12.png)
 
-# ![](screenshots\13.png)
+# ![](./screenshots/13.png)
 
-# ![](screenshots\14.png)
+# ![](./screenshots/14.png)
 
-# ![](screenshots\15.png)
+# ![](./screenshots/15.png)
 
-# ![](screenshots\16.png)
+# ![](./screenshots/16.png)
 
-# ![](screenshots\17.png)
+# ![](./screenshots/17.png)
 
-# ![](screenshots\18.png)
+# ![](./screenshots/18.png)
 
-# ![](screenshots\19.png)
+# ![](./screenshots/19.png)
 
-# ![](screenshots\20.png)
+# ![](./screenshots/20.png)
 
-# ![](screenshots\21.png)
+# ![](./screenshots/21.png)
 
-# ![](screenshots\22.png)
+# ![](./screenshots/22.png)
 
-# ![](screenshots\23.png)
+# ![](./screenshots/23.png)
 
-# ![](screenshots\24.png)
+# ![](./screenshots/24.png)
 
-# ![](screenshots\25.png)
+# ![](./screenshots/25.png)
 
-# ![](screenshots\26.png)
+# ![](./screenshots/26.png)
 
-# ![](screenshots\27.png)
+# ![](./screenshots/27.png)
 
-# ![](screenshots\28.png)
+# ![](./screenshots/28.png)
 
-# ![](screenshots\29.png)
+# ![](./screenshots/29.png)
 
-# ![](screenshots\30.png)
+# ![](./screenshots/30.png)
 
-# ![](screenshots\31.png)
+# ![](./screenshots/31.png)
 
-# ![](screenshots\32.png)
+# ![](./screenshots/32.png)
 
-# ![](screenshots\33.png)
+# ![](./screenshots/33.png)
 
-# ![](screenshots\34.png)
+# ![](./screenshots/34.png)
 
-# ![](screenshots\35.png)
+# ![](./screenshots/35.png)
 
-# ![](screenshots\36.png)
+# ![](./screenshots/36.png)
 
-# ![](screenshots\37.png)
+# ![](./screenshots/37.png)
 
-# ![](screenshots\38.png)
+# ![](./screenshots/38.png)
 
-# ![](screenshots\39.png)
+# ![](./screenshots/39.png)
 
-# ![](screenshots\40.png)
+# ![](./screenshots/40.png)
 
-# ![](screenshots\41.png)
+# ![](./screenshots/41.png)
 
-# ![](screenshots\42.png)
+# ![](./screenshots/42.png)
 
-# ![](screenshots\43.png)
+# ![](./screenshots/43.png)
 
-# ![](screenshots\44.png)
+# ![](./screenshots/44.png)
 
-# ![](screenshots\45.png)
+# ![](./screenshots/45.png)
 
-# ![](screenshots\46.png)
+# ![](./screenshots/46.png)
 
-# ![](screenshots\47.png)
+# ![](./screenshots/47.png)
 
-# ![](screenshots\48.png)
+# ![](./screenshots/48.png)
 
-# ![](screenshots\49.png)
+# ![](./screenshots/49.png)
